@@ -1,0 +1,509 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>T3ts Ent | Home</title>
+    <link rel="website icon" type="png" href="images/favicon.png">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Crimson+Pro">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<!--Preloader -->
+ <div id="preloader">
+        <div class="loader"></div>
+    </div>
+    
+
+ <!--Main content--> 
+  <div id="content">
+   <!--Your homepage content goes here -->
+
+   <body>
+    <!--responsivenesss for bigger screen-->
+<div class="big-screen">
+    <div class="scroll-watcher"></div>
+    <div class="intro">
+        <div class="social">
+          <a href="https://web.facebook.com/"><i class="fa fa-facebook"></i></a>
+          <a href="https://www.instagram.com/"><i class="fa fa-instagram"></i></a>
+          <a href="https://www.linkedin.com/"><i class="fa fa-linkedin"></i></a>
+        </div>
+
+        <div class="intro-link">
+            <a href="book.html">Book Appointment</a>
+        </div>
+    </div>
+    <nav>
+        <div class="logo"> 
+          <a href="index.html"> <img src="images/Screenshot__3_-removebg-preview.png" width="100%"></a>
+        </div>
+        <div class="navbar" id="sidemenu">
+            <a href="index.html">Home</a>
+            <a href="about.html">About Us</a>
+            <div class="dropdown">
+                <button class="dropbtn"><span>Specializations</span>
+                    <i class="fa fa-caret-down"></i>
+                </button>
+                <div class="dropdown-content">
+                    <a href="ears.html">Otology</a>
+                    <a href="nose.html">Rhinology</a>
+                    <a href="throat.html">Laryngology</a>
+                </div>
+            </div>
+            <div class="dropdown">
+                <button class="dropbtn"><span>Account</span>
+                    <i class="fa fa-caret-down"></i>
+                </button>
+                <div class="dropdown-content">
+                    <a href="login.html">Patient Login</a>
+                    <a href="signup.html">Patient Sign Up</a>
+                </div>
+            </div>
+            <a href="#contact">Contact</a>
+            <i class="bx bx-x" onclick="closemenu()"></i>
+        </div>
+       <i class="bx bx-menu" onclick="openmenu()"></i>
+
+    </nav>
+    <section id="banner">
+        <div class="vid-txt">
+            <h1>Welcome To T3t's ENT Clinic</h1>
+            <hr>
+            <p class="width320">With Over 10 Years Of Experience<br> We Are Regarded As One Of The Best<br> Ent Hospitals Across The Globe.</p>
+        <div class="links">
+            <div class="header-link">
+                <a href="about.html"><span style="color: #fff;">..</span>Learn More<span style="color: #fff;">..</span></a>
+            </div>
+            <div class="header-link">
+                <a href="book.html"> Appointment</a>
+            </div>
+        </div>
+        </div>
+        <div class="video-container">
+            <video autoplay muted loop  id="vid">
+                <source src="videos/BiltmoreEnt_ubmref.mp4" type="video/mp4">
+            </video>
+            
+        </div>
+    
+    </section>
+    <!--message box-->
+    <div id="msg-box" class="msg-box">
+        <div class="msg-content">
+            <span id="msgClose">&times;</span>
+           <div class="user-msg">
+            <h6>Hi there! We are</h6>
+            <h3>T3t's Ear, Nose and Throat Clinic</h3>
+           </div>
+
+           <div class="user-msg">
+                <p>See available times and book an appointment.</p>
+                <a href="book.html">Book an appointment</a>
+           </div>
+
+           <div class="user-msg">
+            <p>Please message us here securely with questions about appointments and more.</p>
+                <a href="#contacts">Send us a message</a>
+           </div>
+        </div>
+    </div>
+
+    <section id="cards">
+        <div class="main-container">
+            <div class="card-container">
+                <img src="images/find-a-doctor-card.jpg" alt="doctor-card" width="100%">
+                    <h3>Our Doctors</h3>
+                    <p>Our doctors are well trained in ENT specialities</p>
+                    <div class="card-link">
+                        <a href="doctor.html">Read More</a>
+                    </div>
+                </div>   
+                
+                <div class="card-container">
+                    <img src="images/appointments-card.jpg" alt="doctor-card" width="100%">
+                        <h3>Appointments</h3>
+                        <p>Book an appointment from the comfort of your home.</p>
+                        <div class="card-link">
+                            <a href="book.html">Appointment</a>
+                        </div>
+                    </div>   
+
+                    <div class="card-container">
+                        <img src="images/locations-card.jpg" alt="doctor-card" width="100%">
+                            <h3>Locations</h3>
+                            <p>Find any of our 15+ locations near you.</p>
+                            <div class="card-link">
+                                <a href="location.html">Our Branches</a>
+                            </div>
+                        </div>   
+            </div>
+
+    </section>
+
+    <!--about-->
+
+    <section id="about">
+            <div class="head">
+                <p>About Us</p>
+                <h1>Why Choose T3t's Ent Clinic</h1>
+            </div>
+            <div class="box">
+                <div class="feature">
+                    <h1>National Recognition</h1>
+                    <div class="feature-description">
+                        <div class="feature-icon">
+                            <img src="images/national-recognition.svg" alt="recognition icon" width="50px" height="50px">
+                        </div>
+                        <div class="feature-txt">
+                            <p>T3t's Clinic is recognized in Ghana and throughout the the world for its epertise and care.</p>
+                        </div>
+                    </div>
+    
+                    <h1>Research</h1>
+                    <div class="feature-description">
+                        <div class="feature-icon">
+                            <img src="images/innovation-research.svg" alt="recognition icon" width="50px" height="50px">
+                        </div>
+                        <div class="feature-txt">
+                            <p>Our staff is focused on today and tomorrow. We focus on reseach and offers the very latest care in the health field
+                                which is found no where.
+                            </p>
+                        </div>
+                    </div>
+    
+                    <h1>Patient Love</h1>
+                    <div class="feature-description">
+                        <div class="feature-icon">
+                            <img src="images/patient-centered-care.svg" alt="recognition icon" width="50px" height="50px">
+                        </div>
+                        <div class="feature-txt">
+                            <p>We just don't care for health conditions. We care about you. Our satff take time to listen 
+                            to what's important to you before recommending the appropriate procedures.</p>
+                        </div>
+                    </div>
+    
+                    <h1>Collabrative Providers</h1>
+                    <div class="feature-description">
+                        <div class="feature-icon">
+                            <img src="images/skilled-collaborative-providers.svg" alt="recognition icon" width="50px" height="50px">
+                        </div>
+                        <div class="feature-txt">
+                            <p>You'll get care from board-certified and fellowship trained experts who work together to create 
+                                a treatment plan just for you.</p>
+                        </div>
+                    </div>
+                </div>
+    
+                    <div class="feature-image">
+                        <img src="images/healing-starts-here-MC11REJU-600x800.avif">
+                    </div>
+                    
+            </div>
+            <div class="about-overlay">
+                <div class="overlay-txt">
+                <h2>About T3t's Ent Clinic</h2>
+                <p>Our mission at T3t's Clinic is simply to serve you. We combine the latest medical technology with a patient-centered approach to offer
+                    a wide reange of services, including primary care, specialist consultations, preventative medicine and urgent care.</p>
+    
+                <p>We believe in building lasting relationships with our patients through open communication, education and a supportive environment.
+                    Our goal is to empower our patients with knowldege and resources to achieve and maintain optimal health. </p>
+                <p class="width320">Thank you for choosing T3t's Ent Clinic as your trusted healthcare provider. We look forward to serving you and your family 
+                    with the highest standard of medical excellence.
+                </p>    
+                </div>
+            </div>
+    
+    </section>
+
+    <!--services-->
+
+    <section id="service">
+        <div class="head">
+            <p>Services</p>
+            <h1>T3t's Clinic Specializations</h1>
+        </div>
+        
+            <div class="main-container">
+                <div class="card-container">
+                    <img src="images/BSC_ENTtests_1200x628-1200x610.jpg" alt="doctor-card" width="100%">
+                        <h3>Otology</h3>
+                        <p>At T3t's we treat all ear related disorders  like wax removal, hearing loss etc.</p>
+                        <div class="card-link">
+                            <a href="ears.html">Learn More</a>
+                        </div>
+                    </div>   
+                    
+                    <div class="card-container">
+                        <img src="images/iStock-1308231497.jpg" alt="doctor-card" width="100%">
+                            <h3>Rhinology</h3>
+                            <p>We specialize in diagnosing diseases of the nose like  infections, nasal deformity etc. </p>
+                            <div class="card-link">
+                                <a href="nose.html">Learn More</a>
+                            </div>
+                        </div>   
+    
+                        <div class="card-container">
+                            <img src="images/throatback.jpg" alt="doctor-card" width="100%">
+                                <h3>Laryngology</h3>
+                                <p>We focuses on the larynx and the disorders, diseases, and injuries that affect it.</p>
+                                <div class="card-link">
+                                    <a href="throat.html">Learn More</a>
+                                </div>
+                            </div>   
+                </div>
+    </section>
+
+    <!--contact-->
+    <section id="contact">
+        <div class="head">
+            <p>Contact</p>
+            <h1>Get In Touch With Us</h1>
+        </div>
+        <div id="contacts" class="map">
+            <iframe src="https://www.google.com/maps/d/embed?mid=1PXp7eiY_hilczj5i1-71jwLuaB9J6KA&ehbc=2E312F" width="100%" height="480"></iframe>
+        </div>
+        <div class="contact-container">
+           <div class="container-display">
+            <div class="contact-info">
+                <h1>Contact Us</h1>
+               <p> <i class="fa fa-inbox"></i> t3tsentclinic@gmail.com</p>
+               <p><i class="fa fa-phone"></i> +233 23 456 1298 / +233 23 8564 1218</p>
+            <div class="contact-socials">
+                <a href="https://web.facebook.com/"> <i class="fa fa-facebook"></i></a>
+                <a href="https://www.instagram.com/"> <i class="fa fa-instagram"></i></a>
+                <a href="https://www.linkedin.com/"><i class="fa fa-linkedin"></i></a>
+            </div>
+            <div class="vid-link">
+                <a href="location.html"><span class="width320">See</span> Locations</a>
+            </div>
+            </div>
+           </div>
+            <div class="contact-form">
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="name" placeholder="Name" required>
+                        <input type="email" name="email" placeholder="Email" required>
+                        <textarea placeholder="message" name="message" required></textarea>
+                        <input type="submit" value="Submit" style="cursor: pointer;">
+                    </form>
+
+            </div>
+        </div>
+
+    </section>
+
+    <!--blogs-->
+    <section id="blogs">
+        <div class="head">
+            <p>Our Blog</p>
+            <h1>Healthcare For All</h1>
+        </div>
+        <div class="main-container">
+            <div class="card-container">
+                <img src="images/Blog Ear Shape.jpg" width="100%">
+                   <a href="https://vimeo.com/845937466/fcd87ad6d9?share=copy"> <i class="fa fa-play"></i></a>
+                    <h3>Ear Tube Surgery</h3>
+                    <p>When a child has multiple ear infections, ear tube surgery might be recommended. This video 
+                        will walk through a family’s journey with their son’s ear tube surgery, showing what to expect
+                         from start to finish.</p>
+                    
+                </div>   
+                
+                <div class="card-container">
+                    <img src="images/cotton.jpg" width="100%">
+                   <a href="https://www.youtube.com/watch?v=eJNTsMNDH3s&list=PL51bs9ifmOQsLimFi4ZSBFqL-IZs2hOAY&index=6"> <i class="fa fa-play"></i></a>
+                        <h3>Cotton Tip Applicators</h3>
+                        <p>Doctors have warned that using cotton tip applicators to clean the ears can lead to injury
+                             and infection. Studies show that a startling number of children suffer injuries after
+                              cotton tip applicators are inserted into their ears.</p>
+                        
+                    </div>   
+
+                    <div class="card-container">
+                        <img src="images/noselaser.jpg" width="100%">
+                        <a href="https://www.youtube.com/watch?v=W2Nbyontce8"> <i class="fa fa-play"></i></a>
+                            <h3>Laser Sounds</h3>
+                            <p> It is a 
+                                well known fact that Laser sounds are very high tech,  
+                                but patients need to know the negative effects of
+                                Laser as a modality for nose treatment. 
+                                  We hope this video will make you realise the harm of
+                                   using laser.</p>
+                           
+                        </div>   
+            </div>
+
+    </section>
+</div>
+<!--big sceen ends-->
+
+    <!--partnership-->
+    <section class="partner">
+        <marquee behavior="alternate" scrollamount="2">
+            <img src="images/client1.png">
+            <img src="images/client2.png">
+            <img src="images/client3.png">
+            <img src="images/client4.png">
+            <img src="images/client5.png">
+        </marquee>
+    </section>
+
+    <!--footer-->
+    <section id="footer">
+        <div class="head">
+            <p>T3t's Ent Clinic</p>
+            <h1>Your Health,Our <span style="color: yellow;" id="automatic"></span></h1>
+        </div>    
+            <p class="link-p">For any concerns plesae contact us on <a href="https://accounts.google.com/InteractiveLogin/signinchooser?continue=https%3A%2F%2Fmail.google.com%2Fmail%2Fu%2F0%2F&emr=1&followup=https%3A%2F%2Fmail.google.com%2Fmail%2Fu%2F0%2F&osid=1&passive=1209600&service=mail&ifkv=AS5LTASzxipU7VxBu7-RgtekuTxlCqiyHJssBC9ZEVQPVlxrpERSO6eSkeslIZPEAFVHd2wnKhZCvg&ddm=0&flowName=GlifWebSignIn&flowEntry=ServiceLogin">info@t3tsentclinic</a></p>
+            <hr class="tt">
+        
+        <div class="footer-container">
+            <div class="footer-details">
+                <h3>Useful Links</h3>
+                <hr>
+                <ul>
+                    <li><a href="https://www.moh.gov.gh/">Ministry Of Health</a></li>
+                    <li><a href="https://ghs.gov.gh/">Ghana Health Service</a></li>
+                    <li><a href="https://www.who.int/home/search-results?indexCatalogue=genericsearchindex1&searchQuery=ENT&wordsMode=AnyWord">World Health Organization</a></li>
+                    <li><a href="https://www.unicef.org/search?force=0&query=Health&created%5Bmin%5D=&created%5Bmax%5D=">UNICEF</a></li>
+                    <li><a href="https://www.raleighcapitolent.com/blog">ENT Blogs</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-details">
+                <h3>Services</h3>
+                <hr>
+                <ul>
+                    <li><a href="ears.html">Otology</a></li>
+                    <li><a href="nose.html">Rhinology</a></li>
+                    <li><a href="throat.html">Laryngology</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-details">
+                <h3>Contact Information</h3>
+                <hr>
+                <ul>
+                    <li style="color: rgba(211, 211, 211, 0.99);"><i class="fa fa-map"></i> P.O. Box OS 1814 Osu Ghana</li>
+                    <li><a href="https://accounts.google.com/AccountChooser/signinchooser?service=mail&continue=https%3A%2F%2Fmail.google.com%2Fmail%2F&ddm=0&flowName=GlifWebSignIn&flowEntry=AccountChooser"><i class="fa fa-envelope"></i> info@t3tsentclinic</a></li>
+                    <li style="color: rgba(211, 211, 211, 0.99);"><i class="fa fa-phone"></i> +233 23 456 1298 / +233 23 8564 1218</li>
+                </ul>
+                <div class="contact-socials">
+                    <a href="https://web.facebook.com/"> <i class="fa fa-facebook"></i></a>
+                    <a href="https://www.instagram.com/"> <i class="fa fa-instagram"></i></a>
+                    <a href="https://www.linkedin.com/"><i class="fa fa-linkedin"></i></a>
+                </div>
+            </div>
+
+
+        </div>
+        <hr class="tt">
+        <div class="footer-container">
+            <div class="copy">
+                <p style="color: rgba(211, 211, 211, 0.99);">Copyright &copy; 2024 - T3t's Ent Clinic. All Rights Reserved</p>
+            </div>
+            <div class="privacy">
+                <p style="color: rgba(211, 211, 211, 0.99);">Privacy Policy</p>
+            </div>
+        </div>
+       
+
+    </section>
+
+    <!--topbtn-->
+    <section id="topbtn">
+   <div class="top">
+      <!--message-->
+   <div class="msg">
+    <button id="msgBtn">Message Us</button>
+   </div>
+
+   <a href="#top"><i class="fa fa-arrow-up"></i></a>
+   </div>
+    </section>
+     
+
+  </div>
+
+  <script>
+    // script.js loader
+
+window.addEventListener("load", function() {
+  const preloader = document.getElementById("preloader");
+  preloader.style.display = "none"; // Hide the preloader
+  document.getElementById("content").style.display = "block"; // Show the content
+});
+
+
+  </script>
+  
+
+    <!--message box-->
+    <script>
+        var message = document.getElementById('msg-box');
+        var BTN = document.getElementById('msgBtn');
+        var closein = document.getElementById('msgClose');
+
+        BTN.onclick = function(){
+            message.style.display = 'block';
+        }
+
+        closein.onclick = function(){
+            message.style.display = 'none';
+        }
+    </script>
+
+
+    <!--autotyping-->
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+            <script>
+                var typed = new Typed("#auto", {
+                    strings: ['Ear, ','Nose ','And Throat.'],
+                    typeSpeed: 100,
+                    backSpeed: 100,
+                    loop: true
+                });
+            </script>
+
+<script>
+    var typed = new Typed("#automatic", {
+        strings: [' Priority, ',' Concern. '],
+        typeSpeed: 100,
+        backSpeed: 100,
+        loop: true
+    });
+</script>
+
+<!--small screen-->
+<script>
+    var sidemenu = document.getElementById("sidemenu");
+
+    function openmenu(){
+        sidemenu.style.right = "0"
+    }
+    function closemenu(){
+        sidemenu.style.right = "-100%"
+    }
+</script>
+
+<!--form-->
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbxjWWv41fouWOfYWNJ5nzJkYBitZhB9AQeP3D2GUajW3SMYJuqYEIy9uJqET9vt5cACVg/exec'
+    const form = document.forms['submit-to-google-sheet']
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => console.log('Success!', response))
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+
+</body>
+</html>

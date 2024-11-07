@@ -1,0 +1,103 @@
+*{
+    padding: 0;
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+#appointment{
+    background: url(../images/appoint.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 50vh;
+}
+.appointment-header{
+    text-align: center;
+
+}
+.appointment-header hr{
+    width: 30%;
+    font-size: 5px;
+    padding: 2px;
+    margin: 10px auto 20px auto;
+    background-color:  #1967a8;
+}
+.appointment-header h1{
+    font-size: 40px;
+    padding: 40px 0px 0px 20px;
+    color: #1967a8;
+}
+.form-container{
+    background: linear-gradient(rgba(0,0,0,0.1),rgba(0, 0, 255, 0.541)), url(../images/shutterstock_1501238792-1920x600.jpg.webp);
+    height: 96vh;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    flex-wrap: wrap;
+    display: flex;
+    margin-bottom: 20px;
+}
+.form{
+    width: 350px;
+    background-color: rgba(0,0,0,0.1);
+    border: 1px solid rgba(0, 0, 255, 0.541);
+    padding: 30px;
+    border-radius: 8px;
+    transform: translate(-50%,-50%);
+    left: 50%;
+    top: 50%;
+    position: absolute;
+    box-shadow: 4px 6px 9px rgba(0,0,0,0.3);
+
+}
+.form input{
+    width: 260px;
+    border-radius: 6px;
+    padding: 10px ;
+    margin: 20px 10px 20px 10px;
+}
+.form textarea{
+    width: 260px;
+    border-radius: 6px;
+    padding: 10px ;
+    margin: 20px 10px 20px 10px;
+}
+#contact{
+    margin-bottom: 50px;
+ }
+@media (max-width: 380px) {
+    .form{
+        width: 270px;
+        padding: 10px;
+    }
+    .form input{
+        width: 220px;
+        padding: 10px ;
+    }
+    .form textarea{
+        width: 220px;
+        padding: 10px ;
+    }
+}
+@media (max-width: 620px){
+    .appointment-header hr{
+        width: 50%;
+    }
+}
+@media (700px < width < 900px){
+    .form{
+        width: 470px;
+        padding: 10px;
+    }
+    .form input{
+        width: 420px;
+        padding: 10px ;
+        height: 70px;
+    }
+    .form textarea{
+        width: 420px;
+        padding: 10px ;
+    }
+}

@@ -1,0 +1,84 @@
+*{
+    padding: 0;
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+#branches{
+    background: url(../images/shutterstock_1927615649-1920x600.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 50vh;
+}
+#contact{
+    margin-bottom: 40px;
+}
+.map-container{
+    width: 80%;
+    margin-left: 10%;
+    margin-top: 40px;
+}
+.loc-detail-container{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 10px;
+    justify-content: space-between;
+    align-items: center;
+}
+.loc-detail span,.loc-detail h6{
+    padding-top: 12px;
+}
+.loc-detail span{
+    color: #1967a8;
+}
+.loc-detail-container1{
+    margin-top: 25px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+.loc-detail a{
+    text-decoration: none;
+    color: #1967a8;
+}
+.loc-detail h3{
+    font-weight: bold;
+}
+/*media*/
+
+@media (max-width: 600px){
+    .loc-detail{
+        flex-basis: 200%;
+        margin-top: 10px;
+        font-size: 18px;
+    }
+    .loc-detail h6,.loc-detail span{
+        font-size: 18px;
+    }
+    .loc-detail-container1,.loc-detail-container{
+        flex-basis: 100%;
+    }
+    .none{
+        display: none;
+    }
+}
+@media (700px < width < 900px){
+    .none{
+        display: none;
+    }
+    .loc-detail{
+        flex-basis: 200%;
+        margin-top: 10px;
+        font-size: 30px;
+    }
+    .loc-detail h6,.loc-detail span{
+        font-size: 25px;
+    }
+    .loc-detail-container1,.loc-detail-container{
+        flex-basis: 100%;
+    }
+}

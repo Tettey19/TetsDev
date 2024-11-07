@@ -1,0 +1,94 @@
+*{
+    padding: 0;
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+#workers{
+    background:  linear-gradient(rgba(255, 255, 255, 0.425),rgba(2, 27, 255, 0.5)),url(../images/doctorsback.png);
+    background-position: center;
+    background-size: cover;
+    height: 50vh;
+}
+#workers h1{
+    text-align: center;
+    font-size: 70px;
+    font-weight: bold;
+    color: black;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    left: 50%;
+    top: 50%;
+}
+.doctor-container{
+    width: 80%;
+    margin: 50px 10%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+   
+}
+.doctor-info{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid rgba(0,0,0,0.5);
+    padding: 5px;
+    border-radius: 8px;
+}
+.doctor-details{
+    padding: 10px;
+}
+.doctor-details h2{
+    color: #1967a8;
+    padding: 5px;
+    font-size: 30px;
+}
+.doctor-details p{
+    padding: 5px;
+    font-size: 20px;
+}
+.doctor-image{
+    width: 100%;
+
+}
+.doctor-image img{
+    width: 70%;
+    margin-left: 20%;
+    border-radius: 8px;
+}
+#contact{
+    margin-bottom: 50px;
+}
+@media (max-width: 770px) {
+    .doctor-image{
+        flex-basis: 100%;
+        display: flex;
+        justify-content: center;
+    }
+    .doctor-image img{
+        width: 100%;
+        margin-left: unset;
+    }
+    .doctor-info{
+        display: unset;
+    }
+}
+@media (700px < width < 900px){
+    .doctor-details p{
+        font-size: 19px;
+    }
+    .doctor-image{
+        flex-basis: 100%;
+        display: flex;
+        justify-content: center;
+    }
+    .doctor-image img{
+        width: 100%;
+        margin-left: unset;
+    }
+}

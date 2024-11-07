@@ -1,0 +1,151 @@
+*{
+    padding: 0;
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+#user-page{
+    background: url(../images/earback.png);
+    background-position: center;
+    background-size: cover;
+    height: 38vh;
+}
+.dashboard{
+    width: 80%;
+    display: flex;
+    margin: 20px;
+    margin-left: 10%;
+    flex-wrap: wrap;
+   
+    
+}
+.all-details{
+    width: 80%;
+ }
+.user-details{
+    width: 100%;
+    display: flex;
+}
+.detail-txt{
+    display: flex;
+    justify-content: space-between;
+}
+.detail-txt .fa{
+    background-color: royalblue;
+    color: #fff;
+    font-size: 16px;
+    padding: 5px;
+    border-radius: 4px;
+}
+.details{
+    width: 300px;
+    background-color: #fff;
+    padding: 10px;
+    margin: 0px 0px 0px 20px;
+    box-shadow: 4px 6px 8px rgba(0,0,0,0.1);
+    border-radius: 6px;
+}
+.user-card{
+    width: 20%;
+}
+.user-info{
+    width: 100%;
+    margin-bottom: 20px;
+    background-color: #fff;
+    box-shadow: 4px 6px 8px rgba(0,0,0,0.1);
+    border-radius: 6px;
+}
+.user-name{
+    padding: 10px;
+    text-align: center;
+}
+.user-image{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    
+}
+.user-image img{
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    
+}
+.user-info-links {
+    background-color: #fff;
+    box-shadow: 4px 6px 8px rgba(0,0,0,0.1);
+    border-radius: 6px;
+}
+.user-info-links li{
+    padding: 10px;
+    list-style: none;
+}
+.user-info-links a{
+    text-decoration: none;
+    color: blue;
+    font-weight: bold;
+}
+.logout {
+    width: 100%;
+    padding: 10px;
+    text-align: center;
+    padding-bottom: 20px;
+}
+.logout a{
+    padding: 5px 20px 5px 20px;
+    border-radius: 6px;
+    border: 1px solid blue;
+}
+.logout a:hover{
+    background-color: blue;
+    color: #fff;
+}
+.update-container{
+    background-color: #fff;
+    box-shadow: 4px 6px 8px rgba(0,0,0,0.1);
+    border-radius: 6px;
+    margin: 20px;
+    width: 98%;
+}
+.update-txt{
+    border: 1px solid rgba(0,0,0,0.1);
+    padding: 14px;
+    margin: 20px 0px 20px 0px ;
+    border-radius: 6px;
+}
+.update-txt h4, .update-txt p, .update-txt h3, .detail-no p,.user-name h3{
+    color: blue;
+}
+.update-txt span{
+    color: black;
+    font-weight: unset;
+}
+
+@media (max-width: 770px) {
+    .all-details{
+        flex-basis: 100%;
+        margin-top: 20px;
+    }
+    .detail-txt h3,.detail-txt p,.detail-txt .fa{
+        font-size: 14px;
+    }
+    .user-details{
+        margin: 0px 0px 0px -10px;
+    }
+    .user-card{
+        flex-basis: 100%;
+    }
+    .update-container{
+        margin-left: 12px;
+    }
+    
+}
+#contact{
+    margin-bottom: 40px;
+}

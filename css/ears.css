@@ -1,0 +1,90 @@
+*{
+    padding: 0;
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+#earback{
+    background: linear-gradient(rgba(0,0,0,0.5), #1967a8), url(../images/earback.png);
+    background-position: center;
+    background-size: cover;
+    height: 50vh;
+    position: relative;
+}
+#earback h3{
+    text-align: center;
+    font-size: 40px;
+    color: #fff;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    left: 50%;
+    top: 50%;
+    animation: kofi 5s ;
+    opacity: 1;
+    animation-delay: 0.5s;
+}
+@keyframes kofi {
+   0%{
+    opacity: 0;
+    transform: translateY(-70px);
+   }
+}
+.ear-info-container{
+    width: 80%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 30px 10%;
+    align-items: center;
+    border: 1px solid rgba(0,0,0,0.2);
+    border-radius: 8px;
+}
+.ear-header{
+    margin: 30px 10%;
+}
+.ear-treatment{
+    width: 300px;
+}
+.ear-treatment li{
+    list-style: none;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+
+}
+.ear-treatment .bx{
+    font-size: 13px;
+    width: 30px;
+    height: 30px;
+    color: #fff;
+    padding: 10px;
+    background-color: #1967a8;
+    border-radius: 15px;
+    margin-right: 10px;
+}
+.ear-treatment.links{
+  padding: 5px;
+  background-color: rgba(235, 231, 231, 0.459);
+}
+.ear-treatment.links .fa{
+    font-size: 16px;
+    color: #1967a8;
+    padding: 10px;
+}
+.ear-treatment.links p{
+    padding: 5px;
+    color: #1967a8;
+}
+.ear-treatment.links a{
+    text-decoration: none;
+    color: black;
+}
+.ear-treatment.links a:hover{
+    text-decoration: underline;
+}
+#contact{
+    margin-bottom: 50px;
+ }

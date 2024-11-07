@@ -1,0 +1,124 @@
+*{
+    padding: 0;
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+#user-login{
+    background: url(../images/168_8843-e1670413574422.webp);
+    background-position: center;
+    background-size: cover;
+    height: 50vh;
+}
+#user-login p{
+    text-align: center;
+    font-size: 40px;
+   transform: translate(-50%,-50%);
+   top: 45%;
+   left: 50%;
+   position: absolute;
+    font-weight: bold;
+}
+#user-login p #auto{
+    color: #fff;
+}
+.appointment-header{
+    text-align: center;
+
+}
+.appointment-header hr{
+    width: 5%;
+    font-size: 5px;
+    padding: 2px;
+    margin: 10px auto 20px auto;
+    background-color: blue;
+}
+.appointment-header h1{
+    font-size: 40px;
+    padding: 40px 0px 0px 20px;
+    color: rgba(0, 0, 255, 0.541);
+}
+.form-container{
+    background: linear-gradient(rgba(0,0,0,0.1),rgba(0, 0, 255, 0.541)), url(../images/shutterstock_639861148-1920x600.jpg.webp);
+    height: 70vh;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+.form{
+    width: 410px;
+    background-color: rgba(0,0,0,0.1);
+    border: 1px solid rgba(0, 0, 255, 0.541);
+    padding: 40px;
+    border-radius: 8px;
+    transform: translate(-50%,-50%);
+    left: 50%;
+    top: 50%;
+    position: absolute;
+    box-shadow: 4px 6px 9px rgba(0,0,0,0.5);
+
+}
+.form input{
+    width: 310px;
+    border-radius: 6px;
+    padding: 10px ;
+    margin: 30px 10px 30px 10px;
+    outline: none;
+}
+/*.form input:invalid:not(:placeholder-shown){
+    border-bottom: 2px solid red;
+}
+ 
+.form input:valid{
+    border-bottom: 2px solid green;
+}
+.form input:invalid ~ .form-link a{
+    opacity: .6;
+    pointer-events: none;
+    border: 1px   solid red;
+}
+       */
+.no-account{
+    text-align: center;
+    color: #fff;
+    font-weight: bold;
+    margin: 10px;
+}
+.no-account a{
+    text-decoration: none;
+    color: #000000;
+}
+.no-account a:hover{
+    text-decoration: underline;
+    color: #fff;
+    transition: 0.2s;
+}
+.form-link{
+    margin-top: 90px;
+    text-align: center;
+    border-radius: 6px;
+}
+.form-link a{
+    padding: 10px 50px ;
+    border-radius: 6px;
+    text-align: center;
+    text-decoration: none;
+    border: 1px solid #fff;
+    margin-top: 15px;
+    color: #fff;
+    font-weight: bold;
+}
+
+.form-link a:hover{
+    transition: 0.5s;
+    color: #fff;
+    background-color: rgb(0, 0, 255);
+
+}
+#contact{
+    margin-bottom: 50px;
+ }
+
